@@ -203,3 +203,6 @@ st.dataframe(filtered.sort_values("timestamp", ascending=False).head(300), use_c
 
 # ─────────── تذييل ───────────
 st.markdown("""
+    <div>Hello world</div>
+""", unsafe_allow_html=True)
+
